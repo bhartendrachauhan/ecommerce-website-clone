@@ -11,7 +11,7 @@ export default function EachCartProduct({eachProduct}) {
     <>
       <div className='each-cart-product-container'>
         <div className='each-cart-product-image'>
-          <img src={product['image']} alt='product-image' />
+          <img src={product['image']} alt='product-look' />
         </div>
         <div className='each-cart-product-detail'>
           <div className='each-cart-product-title'>{product['title']}</div>

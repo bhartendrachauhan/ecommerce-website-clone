@@ -15,7 +15,7 @@ export default function EachProduct({product}) {
     <>
     <div className='each-product' onClick={setDetailProduct}>
         <div className='each-product-img'>
-            <img src={product["image"]} alt='product-image' />
+            <img src={product["image"]} alt='product-view' />
         </div>
         <div className='each-product-title'>
             {product["title"]}

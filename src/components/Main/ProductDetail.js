@@ -30,7 +30,7 @@ export default function ProductDetail() {
     <div className='detail-product-container'>
       <div className='detail-product-left-container'>
         <div className='detail-product-img'>
-          <img src={product['image']} alt='product-image'/>
+          <img src={product['image']} alt='product-view'/>
         </div>
         <div className='detail-product-buttons'>
           <div className='detail-product-cart'>
