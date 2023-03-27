@@ -17,7 +17,7 @@ const App = () => {
         name: "Bhartendra Singh Chauhan",
         pincode: "474002",
         state: "Madhya Pradesh",
-      }
+      },
     ];
     if(!localStorage.getItem('addresses')){
         localStorage.setItem("addresses", JSON.stringify(x));

@@ -15,7 +15,7 @@ export default function EachAddress({data}) {
                     <div className='each-address-radio-btn'><div className='each-address-radio-btn-inside'></div></div>
                 </div>
                 <div className='each-address-address'>
-                    <span>{data.addressLine1}, {data.addressLine2}, {data.city}, {data.state} - {data.pincode}<br/>+91 {data.contact}</span>
+                    <span>{data.addressLine1}, {data.addressLine2}, {data.city},<br/> {data.state} - {data.pincode}<br/>+91 {data.contact}</span>
                 </div>
                 <div className='each-address-continue-btn' onClick={()=>{navigate('/payment')}}>
                     Deliver to this Address
