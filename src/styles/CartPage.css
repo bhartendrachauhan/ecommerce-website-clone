@@ -53,7 +53,8 @@
 .cart-page-price-info{
     margin-left: 20px;
     position: fixed;
-    right: 300px;
+    /* right: 300px; */
+    left: 900px;
 }
 .cart-page-price-heading{
     color: black;
