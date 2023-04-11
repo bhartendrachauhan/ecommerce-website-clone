@@ -127,3 +127,19 @@
     width: 45vw;
     padding: 10px;
 }
+
+@media screen and (max-width:650px){
+    .detail-product-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .detail-product-left-container{
+        margin-left: 5vw;
+    }
+    .detail-product-right-container{
+        margin-left: 10vw;
+    }
+    .detail-product-img{
+        height: 50vh;
+    }
+} 

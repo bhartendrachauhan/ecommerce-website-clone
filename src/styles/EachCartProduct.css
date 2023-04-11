@@ -81,3 +81,9 @@
     color: #f43397;
     cursor: pointer;
 }
+
+@media screen and (max-width:650px){
+    .each-cart-product-container{
+        width: 50vw;
+    }
+}

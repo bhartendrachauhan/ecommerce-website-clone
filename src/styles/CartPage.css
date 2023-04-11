@@ -21,7 +21,7 @@
 .cart-page-list{
     width: 38vw;
     height: fit-content;
-    margin-left: 220px;
+    margin-left: 10vw;
     padding-right: 23px;
     border-right: 1px solid #ccc;
     overflow-y: scroll;
@@ -101,4 +101,17 @@
 
 .cart-page-image{
     width: 22vw;
+}
+
+@media screen and (max-width:650px){
+    .cart-page-list{
+        margin-left: 0;
+        width: 55vw;
+    }
+    .cart-page-order-total{
+        display: none;
+    }
+    .cart-page-price-info{
+        font-size: 12px;
+    }
 }
