@@ -2,14 +2,14 @@
     height: fit-content;
     left: 0;
     right: 0;
-    margin: 30px 100px;
+    margin: 1vw 3vw;
     position: absolute;
     top: 77px;
     display: flex;
 }
 
 .address-page-list{
-    width: 560px;
+    width: 38vw;
     height: fit-content;
     margin-left: 220px;
     padding-right: 23px;
@@ -31,7 +31,7 @@
 }
 
 .address-page-list-title{
-    width: 560px;
+    width: 38vw;
     padding-right: 10px;
     color: black;
     font-size: 18px;
@@ -52,7 +52,8 @@
     margin-left: 20px;
     position: fixed;
     /* right: 300px; */
-    left: 900px;
+    left: 63vw;
+    width: 25vw;
 }
 .address-page-price-heading{
     color: black;
